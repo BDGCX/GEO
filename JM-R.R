@@ -36,7 +36,7 @@ g2s=toTable(org.Hs.egSYMBOL);head(g2s)
 tmp=merge(tmp,g2s,by='gene_id')
 View(tmp)
 
-##作业2 probe_id转换
+##作业2 probe_id转换，首先找到对应平台GPL所需的R包并安装加载http://www.bio-info-trainee.com/1399.html
 a=read.table('e2.txt')
 a=read.table('e2.txt')
 View(a)
